@@ -1,0 +1,462 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  /* display: block; */
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+/* ========================================= Обнуление стилей ============================================= */
+body {
+  max-width: 1440px;
+  margin: auto;
+  background-color: rgb(240, 240, 240);
+}
+.first_block {
+}
+.header {
+  height: 50px;
+  width: 1440px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(58, 58, 58);
+}
+.header_1 {
+  margin-top: 14px;
+}
+.targ {
+  padding-right: 5px;
+}
+.search {
+  width: 300px;
+  border: 1px solid rgb(175, 175, 175);
+  min-height: 20px;
+  background-color: gray;
+  margin: 7px 0 0 0;
+}
+.search input[type="text"] {
+  border: none;
+  width: 274px;
+  vertical-align: middle;
+  background-color: gray;
+  color: rgb(224, 224, 224);
+  padding: 0 0 7px 10px;
+}
+.search input[type="submit"] {
+  width: 16px;
+  height: 16px;
+  border: none;
+  background: url(../img/search.svg) no-repeat 50% 50%;
+  margin-top: 5px;
+}
+/* ============================================================================================ */
+.second_block {
+}
+.top_1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+.top_1 p {
+  color: rgb(168, 168, 168);
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 24px;
+}
+.top_1 h2 {
+  font-weight: 700;
+  font-family: Roboto;
+}
+.bottom_1 {
+  display: flex;
+  justify-content: space-between;
+  outline: 2px solid #000;
+}
+.post {
+  padding: 40px 10px 40px 10px;
+  outline: 2px solid #000;
+}
+.post h2 {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+.post p {
+  font-family: Roboto;
+  font-weight: normal;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.post a {
+  color: blue;
+  text-decoration: none;
+}
+.post a:visited {
+  color: #830707;
+}
+.post a:hover {
+  color: purple;
+  text-decoration: underline;
+}
+/* ============================================================================================ */
+.third_block {
+  height: 600px;
+}
+.multiple {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 100px;
+}
+.just {
+  width: 25%;
+  font-family: Roboto;
+}
+.one {
+  margin-top: 28px;
+}
+.one p {
+  width: 80%;
+}
+.one p:first-child {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  padding-left: 30px;
+  padding-right: 15px;
+}
+.one p:last-child {
+  font-weight: normal;
+  color: rgb(90, 90, 90);
+  line-height: 26px;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  padding-left: 30px;
+  padding-right: 15px;
+}
+.two {
+  font-weight: normal;
+  color: rgb(90, 90, 90);
+  line-height: 26px;
+}
+.two p {
+  width: 80%;
+}
+.two p:first-child {
+  padding-top: 45px;
+  padding-bottom: 45px;
+  padding-left: 30px;
+  padding-right: 15px;
+}
+.two p:last-child {
+  background-color: rgb(210, 210, 210);
+  padding-top: 45px;
+  padding-bottom: 45px;
+  padding-left: 30px;
+  padding-right: 15px;
+}
+/* ====================================================================================== */
+.fourth_block {
+  /* height: 500px; */
+}
+.about_us {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 100px;
+}
+.left_1 {
+  width: 33%;
+  font-family: Roboto;
+  font-weight: normal;
+  color: rgb(90, 90, 90);
+  line-height: 24px;
+  padding-left: 30px;
+}
+.left_1 h2 {
+  color: black;
+  font-weight: 700;
+  font-size: 24px;
+}
+.left_1 p {
+  padding-top: 30px;
+}
+.right_1 {
+  width: 33%;
+  font-family: Roboto;
+  font-weight: normal;
+  color: rgb(90, 90, 90);
+  line-height: 24px;
+  padding-top: 53px;
+  padding-left: 75px;
+}
+.right_1 p {
+  padding-bottom: 15px;
+}
+.right_1 a {
+  padding-top: 15px;
+  color: blue;
+  text-decoration: none;
+}
+.right_1 a:visited {
+  color: #830707;
+}
+.right_1 a:hover {
+  color: purple;
+  text-decoration: underline;
+}
+/* ================================================================================= */
+.fifth_block {
+  /* height: 500px; */
+}
+.map {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-top: 30px;
+}
+.about_map {
+  width: 30%;
+  align-self: center;
+  font-size: 16px;
+}
+.about_map h2 {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 32px;
+  letter-spacing: 1.5px;
+  padding-top: 15px;
+}
+.about_map p:first-child {
+  font-family: Roboto;
+  padding-top: 20px;
+}
+.about_map p:last-child {
+  font-family: Roboto;
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+.about_map a {
+   font-family: Roboto;
+   font-size: 16px;
+   color: blue;
+   text-decoration: none;
+}
+.about_map a:visited {
+   color: #830707;
+ }
+.about_map a:hover {
+   color: purple;
+   text-decoration: underline;
+ }
+/* ================================================================================== */
+.sixth_block {
+   height: 800px;
+}
+.leading {
+   font-family: Roboto;
+   padding: 80px 0 30px 0;
+}
+.leading h1{
+   color: rgba(153, 0, 188, 0.622);
+   font-weight: 700;
+   font-size: 52px;
+}
+.leading p{
+   font-size: 20px;
+   line-height: 32px;
+   padding-top: 30px;
+}
+.flex_blocks {
+   display: flex;
+   justify-content: space-between;
+   height: 530px;
+   gap: 15px;
+}
+.flex_blocks h2{
+   color: rgba(153, 0, 188, 0.622);
+   font-family: Roboto;
+   font-weight: 700;
+   font-size: 36px;
+   padding-top: 30px;
+   padding-left: 30px;
+}
+.flex_blocks p{
+   font-family: Roboto;
+   line-height: 32px;
+   padding: 0 30px 30px 30px;
+   color: gray;
+   padding: 20px 35px 20px 35px;
+}
+.flex_blocks a{
+   padding-left: 30px;
+}
+.flex_blocks button{
+   background: transparent;
+   background-color: rgba(153, 0, 188, 0.622);
+   color: white;
+   font-size: 20px;
+    font-family: Roboto;
+    font-weight: 700;
+    padding: 16px 35px 16px 35px;
+}
+.flex_ {
+   background-color: white;
+}
+/* ========================================================================== */
+.seventh_block {
+   height: 460px;
+}
+.flex_form {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.flex_form h2{
+   font-family: Roboto;
+   font-size: 48px;
+   font-weight: 700;
+   padding-top: 80px;
+}
+.fname {
+   border-bottom: 4px solid grey;
+   background-color: rgb(240, 240, 240);
+   width: 700px;
+   padding-top: 25px;
+   padding-bottom: 15px;
+   font-family: Roboto;
+   font-size: 16px;
+   line-height: 24px;
+}
+.lname {
+   border-bottom: 4px solid grey;
+   background-color: rgb(240, 240, 240);
+   width: 700px;
+   padding-top: 25px;
+   padding-bottom: 15px;
+   font-family: Roboto;
+   font-size: 16px;
+   line-height: 24px;
+}
+.hname {
+   border-bottom: 4px solid grey;
+   background-color: rgb(240, 240, 240);
+   width: 700px;
+   padding-top: 25px;
+   padding-bottom: 60px;
+   font-family: Roboto;
+   font-size: 16px;
+   line-height: 24px;
+}
+.dname {
+   border: 4px solid black;
+   background-color: rgb(240, 240, 240);
+   width: 200px;
+   margin-left: 250px;
+   margin-top: 10px;
+   padding-top: 10px;
+   padding-bottom: 15px;
+   font-family: Roboto;
+   font-size: 24px;
+}
+/* ========================================================== */
+.eighth_block {
+}
+.flex_end {
+   display: flex;
+   justify-content: space-between;
+   height: 60px;
+   background-color: rgb(58, 58, 58);
+   color: white;
+}
+.logotype {
+   color: rgb(168, 168, 168);
+   font-family: Roboto;
+   font-weight: 700;
+   font-size: 24px;
+   align-self: center;
+   padding-left: 25px;
+}
+.parag_end {
+   align-self: center;
+   font-family: Roboto;
+   font-weight: 400;
+   /* font-size: 24px; */
+   width: 600px;
+   padding-left: 40px;
+}
+.last_ico {
+   align-self: center;
+   padding-right: 25px;
+}
+.targ_1 {
+}
